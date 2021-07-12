@@ -1,0 +1,66 @@
+.home {
+  height: 100vh;
+  width: 100%;
+  background-color: #000;
+  position: relative;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 5rem;
+  color: #fff;
+  font-weight: 100;
+}
+
+.introduction {
+  color: #fff;
+  opacity: 1;
+  padding: 10rem;
+}
+.introduction__heading {
+  width: 500px;
+  height: 125px;
+  text-align: left;
+  font: normal normal bold 125px/140px Ubuntu Mono;
+  color: #3c3c3c;
+}
+.introduction__name {
+  width: 375px;
+  height: 125px;
+  text-align: left;
+  font: normal normal bold 125px/140px Ubuntu Mono;
+}
+.introduction__proffession {
+  width: 728px;
+  height: 28px;
+  text-align: left;
+  font: normal normal normal 28px/42px Ubuntu Mono;
+  color: #ffffff;
+}
+.hero {
+  position: absolute;
+  top: 0;
+  left: 705px;
+  width: 35vw;
+  height: 100vh;
+}
+
+.social__media {
+  position: absolute;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  color: #fff;
+  margin: 0 5rem 0 0;
+  width: 5rem;
+  right: 0;
+  top: 75vh;
+}
+
+.social__media > i {
+  width: 10px;
+  height: 10px;
+  margin: 1.5rem;
+  cursor: pointer;
+}

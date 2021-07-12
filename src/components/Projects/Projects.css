@@ -1,0 +1,36 @@
+.projects {
+  color: #fff;
+  width: 100%;
+  margin: 5rem;
+}
+.project__details {
+  width: 90vw;
+  display: grid;
+  grid-template-columns: 674px 674px;
+  grid-column-gap: 5rem;
+}
+.project__one,
+.project__two,
+.project__three,
+.project__four {
+  margin: 2rem 0 0 0;
+}
+.project__one > img,
+.project__two > img,
+.project__three > img,
+.project__four > img {
+  margin: 2rem 0 0 0;
+  width: 674px;
+  height: 508px;
+}
+.project__one > img:hover,
+.project__two > img:hover,
+.project__three > img:hover,
+.project__four > img:hover {
+  background-color: rgb(0, 0, 0);
+  opacity: 0.35;
+}
+.project__two,
+.project__four {
+  margin-top: 10rem;
+}
